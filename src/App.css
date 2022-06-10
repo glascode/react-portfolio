@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+
+#github{
+  text-align: center;
+}
+
+#body{
+  
+  padding-left: 0px;
+  list-style-type: none;
+  background-color: beige;
+  margin: auto;
+
+}
+
+#github{
+list-style-type: none;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 15px;
+font-weight: bold;
+
+}
+
+#skills{
+  list-style-type: none;
+  padding-top: 10px;
+  font-size: 18px;
+  padding-left: 10px;
+  size: 226px;
+  width: 226px;
+  margin-right: 50px;
+  display:contents;
+  padding-top: 10px;
+  text-align: center;
+
+}
+#aboutme{
+  font-size: 20px;
+  text-align: center;
+}
+#contactinfo{
+  font-size: 18px;
+ text-align: center;
+ display: contents;
+}
+#skill-space{
+  padding-bottom: none;
+  border-bottom:10px;
+}

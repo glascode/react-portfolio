@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Github from './components/Github';
+import Contactinfo from './components/Contactinfo';
+import Skills from './components/Skills';
+import Aboutme from './components/Aboutme'; 
+
+
+
+// const fullname= "Anthony Garcia"; 
+// const firstName= "Anthony"; 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="body">
+    <div>
+    <div id="aboutme"><Aboutme/></div>
+    <div id="skills"><Skills/></div>
+    <div id= "contactinfo"><Contactinfo/></div>
+    <div id="github"><Github/></div>
+    
+    
+    
+    
+    
+    
+    
+    </div>
     </div>
   );
 }
